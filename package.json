@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node ./server.js",
-    "start:dev": "cross-env NODE_ENV=DEVELOPMENT nodemon ./server.js BOT_TOKEN=<bot-token>",
+    "start:dev": "cross-env NODE_ENV=DEVELOPMENT nodemon ./server.js",
     "lint": "eslint **/*.js",
     "lint:fix": "eslint --fix **/*.js",
     "build" : "tsc"
